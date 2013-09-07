@@ -7,10 +7,10 @@ from flask import Flask, request, render_template
 
 app = Flask(__name__)
 
-api = twitter.Api(consumer_key="83I2XxBCw89VpvJzuAySqA",
-	consumer_secret="BtCTOAIkX3JhxB5wxZVtKC7JqZS4aUfMuzVVF9Tc8",
-	access_token_key="1591338780-eGbh2VC3lglSfehg4bZ0sLXGdqXDnX6G0ua6gKR",
-	access_token_secret="WCjZdxeqMTU4pwFb3Us5AxFizRwuszvH3LvfcugQrQ")
+api = twitter.Api(consumer_key=os.environ['consumer_key'],
+	consumer_secret=os.environ['consumer_secret'],
+	access_token_key=os.environ['access_key'],
+	access_token_secret=os.environ['access_secret'])
 
 generator = markov.MarkovGenerator(n=3, max=25)
 
