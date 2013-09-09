@@ -1,0 +1,53 @@
+body {
+	background:#F0EEC2;
+}
+
+h1 {
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, "Times New Roman";
+	font-size:70pt;
+	text-align:center;
+	line-height:90%;
+	/*letter-spacing:10px;*/
+}
+
+h3 {
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, "Times New Roman";
+	font-size:30pt;
+	text-align:center;
+}
+
+h4 {
+	font-family:"Edwardian Script ITC", "Book Antiqua", Palatino, "Times New Roman";
+	font-size:40pt;
+	text-align:center;
+	line-height:0%;
+}
+
+p, a:link, a:visited {
+	text-align:center;
+	text-decoration:none;
+	color:#000000;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, "Times New Roman";
+	font-size:20px;
+	padding-bottom:100px;
+}
+
+a:hover {
+	text-align:center;
+	text-decoration:none;
+	color:#868686;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, "Times New Roman";
+}
+
+#rect {
+	margin-left:100px;
+	margin-right:100px;
+	margin-top:50px;
+	height:600px;
+	background-color:#F0EFE3;
+	border:10px solid #E3D800;
+	padding-top:0px;
+	padding-right:100px;
+	padding-left:100px;
+
+}

@@ -42,8 +42,7 @@ def about():
 
 @app.route("/about")
 def index():
-	return """This site is a sister project to <a href="http://www.slutsacrossamerica.org">'Sluts Across America'</a>.</br>
-	We take all of the text that has been submitted via that project and remix it."""
+	return render_template('about.html')
 
 
 #start the server
