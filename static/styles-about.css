@@ -10,6 +10,10 @@ h1 {
 	/*letter-spacing:10px;*/
 }
 
+p {
+	line-height:80%;
+}
+
 p, a:link, a:visited {
 	text-align:center;
 	text-decoration:none;
