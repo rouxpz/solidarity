@@ -32,16 +32,19 @@ for d in data:
 		generator.feed(line)
 
 @app.route("/")
-def about():
+def index():
 
 	for i in range(1):
 		output = generator.generate()
-		api.PostUpdate(output)
+		if len(output) <= 140:
+			api.PostUpdate(output)
 
 	return render_template('index.html', output=output)
 
+	
+
 @app.route("/about")
-def index():
+def about():
 	return render_template('about.html')
 
 
