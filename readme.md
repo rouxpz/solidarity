@@ -4,4 +4,6 @@
 
 The app takes a database of all of the responses gathered on "Sluts," puts them into a Markov chain generator, and creates a new response from the source text every time the page is refreshed.  It also posts each new response to the Twitter account [@SlutSolidarity](http://twitter.com/SlutSolidarity) as it is created.  
 
-Written in Python using the Flask engine.  This app also uses [Adam Parrish's MarkovGenerator class](https://github.com/aparrish/rwet-examples).  
+Written in Python using the Flask engine.  This app also uses [Adam Parrish's MarkovGenerator class](https://github.com/aparrish/rwet-examples).
+
+[Visit the site at slutsolidarity.org.](http://slutsolidarity.org)  
