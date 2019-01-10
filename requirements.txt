@@ -1,7 +1,7 @@
-Flask==0.10.1
+Flask ~> 0.12.3
 Jinja2==2.7
 MarkupSafe==0.18
-PyYAML==3.10
+PyYAML ~> 4.2b1
 Pygments==1.6
 Sphinx==1.2b1
 Werkzeug==0.9.1
